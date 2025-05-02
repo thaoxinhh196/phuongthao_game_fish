@@ -1,0 +1,43 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/phuongthao_game_fish/v17/Browse.VC.db
+.vs/phuongthao_game_fish/v17/ipch/AutoPCH/dcf801686a75844b/MAINSTUDY.ipch
+/.vs/phuongthao_game_fish/FileContentIndex
+/.vs/phuongthao_game_fish/v17
+/phuongth.ae24df12/x64/Debug/phuongth.ae24df12.tlog
+phuongth.ae24df12/x64/Debug/phuongthao_game_fish.ilk
+phuongth.ae24df12/x64/Debug/phuongthao_game_fish.log
+phuongth.ae24df12/x64/Debug/phuongthao_game_fish.vcxproj.FileListAbsolute.txt
+phuongth.ae24df12/x64/Debug/vc143.idb
+phuongth.ae24df12/x64/Debug/vc143.pdb
+phuongth.ae24df12/x64/Debug/vcpkg.applocal.log
