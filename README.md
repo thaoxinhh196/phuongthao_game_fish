@@ -3,4 +3,4 @@ For Starting
 
 # npm install
 
-![image](https://github.com/user-attachments/assets/815bbc4e-483c-4451-9e60-cb96aaf36a71)
+<!-- Failed to upload "Quay màn hình 2025-05-04 232321.mp4" -->
