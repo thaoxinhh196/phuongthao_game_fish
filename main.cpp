@@ -99,7 +99,6 @@ int main(int argc, char* argv[]) {
                 std::string textpoint = ss.str();
                 textTexture = rendertexture(renderer, textpoint);
                 std::cout << point;
-                //surfaceMessage = TTF_RenderText_Solid(Font, "Point:" + point, White);
             }
             fish.updateAnimation(currentTime);
             fish.updateMovement();
