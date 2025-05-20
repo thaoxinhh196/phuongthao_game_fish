@@ -35,21 +35,19 @@ void Fish::swim(SDL_Renderer* renderer, int x, int y) {
 }
 
 void Fish::swimRandom(SDL_Renderer* renderer) {
-    srand(time(NULL));
-    int randomFlip = rand() % 2;
-    while (alive) {
-        if (randomFlip == 1) {
-            flipState = SDL_FLIP_NONE;
-            rect.x -= 1;
-        }
-        else {
-            rect.x += 1;
-            flipState = SDL_FLIP_HORIZONTAL;
-        }
-        render(renderer, rect.w);
-    }
-}
+        if (!alive) return;
 
+    int randomFlip = rand() % 2;
+    if (randomFlip == 1) {
+        flipState = SDL_FLIP_NONE;
+        rect.x -= speed;
+    }
+    else {
+        rect.x += speed;
+        flipState = SDL_FLIP_HORIZONTAL;
+    }
+    render(renderer, rect.w);
+}
 void Fish::updateMovement() {
     rect.x += speed * direction;
     if (rect.x < -rect.w || rect.x > SCREEN_WIDTH) {
